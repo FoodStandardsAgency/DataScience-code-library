@@ -9,7 +9,7 @@ library(rgdal)
 
 dataframe <- read.csv("filename.csv")
 boundaries <- readOGR("shapefile name.shp")
-boundaries <- spTransform(rdmareasla, CRS("+init=epsg:4326"))
+boundaries <- spTransform(boundaries, CRS("+init=epsg:4326"))
 
 ui <- fluidPage(
   titlePanel("Title of Map"),
