@@ -1,0 +1,65 @@
+# -- User --
+secrets/*
+config.yml
+data/*
+dev/*
+
+# -- R or Rstudio --
+.Rproj
+.Rhistory
+.Rapp.history
+.RData
+renv/library
+
+# knitr and R markdown default cache directories
+/*_cache/
+/cache/
+
+# Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
+rsconnect/
+.Rproj.user
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# -- OS --
+__MACOSX
+.DS_Store
+
+# -- Linux --
+.directory
+
+# -- Byte-compiled / optimized / DLL files --
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -- Jupyter Notebook --
+.ipynb_checkpoints
+
+# -- IPython --
+profile_default/
+ipython_config.py
+
+# -- Dask --
+dask-worker-space/
+
+# -- JetBrains --
+.idea/
+
+# -- VSCode --
+.vscode/*
+.history/
+
+# -- Environments --
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# -- Cython debug symbols --
+cython_debug/
